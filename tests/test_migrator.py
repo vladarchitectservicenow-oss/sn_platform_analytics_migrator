@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 test_migrator.py — SN Platform Analytics Migrator Tests
-Copyright (c) 2026 Vladimir Kapustin. License: AGPL-3.0
+Copyright (C) 2026 Vladimir Kapustin
+SPDX-License-Identifier: AGPL-3.0
 """
 import sys, os, unittest
 from datetime import datetime, timezone

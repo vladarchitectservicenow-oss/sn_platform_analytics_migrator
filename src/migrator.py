@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 migrator.py — SN Platform Analytics Migrator
-Copyright (c) 2026 Vladimir Kapustin. License: AGPL-3.0
+Copyright (C) 2026 Vladimir Kapustin
+SPDX-License-Identifier: AGPL-3.0
 """
 import json, os
 from dataclasses import dataclass, asdict, field
@@ -159,7 +160,7 @@ class PlatformAnalyticsMigrator:
 <div class="summary"><b>Instance:</b> {report.instance} | <b>Reports:</b> {report.total_reports} | <b>Mappable:</b> {report.mappable} | <b>Unmappable:</b> {report.unmappable}</div>
 <table><tr><th>Name</th><th>Source</th><th>Target</th><th>Supported</th><th>Issues</th></tr>
 {rows}</table>
-<p style="font-size:0.8em;color:#555">Copyright (c) 2026 Vladimir Kapustin. License: AGPL-3.0</p>
+<p style="font-size:0.8em;color:#555">Copyright (C) 2026 Vladimir Kapustin | SPDX-License-Identifier: AGPL-3.0</p>
 </body></html>
 """
 
